@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags Semânticas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        
+        }
+        
+       
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        header > h1 {
+            font-size: 3em;
+            color: slateblue;
+        }
+        header > h1:hover {
+            color: lightcoral;
+        }
+       main {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px 40px; /*Arredondamento de bordas*/
+
+       }
+       article > h2 {
+        font-size: 2em;
+        color: slateblue;
+        
+       } 
+       article > h2:hover {
+        color: lightcoral;
+       }
+       nav {
+        background-color: rgb(53, 50, 50);
+        padding: 10px;
+        box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315); /*Na ordem: Deslocamento Horizontal, Deslocamento Vertical, Espalhamento e cor da sombra */
+
+       }
+       nav > a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 30px;
+        
+       }
+        nav > a:hover {
+            color: yellow;
+        }
+       article {
+        background-color: rgb(196, 219, 226);
+        padding: 5px;
+        border-radius: 10px 40px;
+
+       }
+       article > aside {
+        background-color: rgb(71, 71, 71);
+        padding: 1px;
+        border-radius: 5px 18px;
+       }
+       aside > p {
+        color: white;
+        text-align: justify;
+        margin-left: 10px;
+       }
+
+       aside > p:hover {
+        color: yellow;
+       }
+       footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 4px;
+        margin: 0px;
+       }
+       footer > p {
+        margin: 0px;
+       }
+
+       #bola {
+        background-color: white;
+        height: 100px;
+        width: 100px; 
+        margin: 100px 100px 100px 400px;
+        border-radius: 50%;
+       }
+       #bola > p {
+        text-align: center;
+        margin: 0px;
+        padding: 35px;
+       }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+        <a href="">Link</a>
+        <a href="">Link</a>
+        <a href="">Link</a>
+        <a href="">Link</a>
+        <a href="">Link</a>
+        </nav>
+
+    </header><!--Tag Cabeçalho-->
+    
+    <main class="container">
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+        <h1>Noticias do Brasil sil sil</h1>
+            <article>
+                <h2>Artigo Brasileiro</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique in fugiat earum natus nostrum ipsa iusto ratione a dicta perspiciatis iure blanditiis, perferendis veritatis, sequi ut, eaque quod minus maiores! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur error cupiditate a deleniti est, pariatur tenetur quis nam doloribus molestias illum laudantium mollitia quaerat, quo vero nemo esse aliquam ratione.</p>
+                <aside>
+                    <p>Escrito por Daniel Muniz</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+
+    </main> <!--Conteúdo Principal-->
+
+    <footer>
+        <p>Júpiter Entretenimento</p>
+
+    </footer> <!--Rodapé-->
+
+    <div id="bola"><p>Bola</p></div>
+</body>
+</html>

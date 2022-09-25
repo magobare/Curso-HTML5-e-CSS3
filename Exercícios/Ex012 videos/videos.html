@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em  HTML5</title>
+</head>
+<body>
+    <h1>Inserido videos hospedados localmente</h1>
+    <p>Este video esta hospedado no meu proprio servidor</p>
+    <p>Videos hospedados desta maneira irão consumir muito tráfego de dados</p>
+    <video width="560" height="315" poster="imagens/download.jpeg" width="560" height="315" controls autoplay loop>
+        <source src="midia/Video-Demo.webm" type="video/webm">
+        <source src="midia/Video-Demo.m4v" type="video/mp4">
+        <source src="midia/video-demo.mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com reprodutor de videos </p>
+    </video>
+
+    <h1>Inserindo videos do Youtube</h1>
+    <p>Neste caso, os dados consumidos serão os do Youtube</p>
+    <p>Basta abrir o video, clicar em COMPARTILHAR e escolher a opção INCORPORAR</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ihK_b1TjfiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1>Inserindo videos do VIMEO</h1>
+    <p>Usa a mesma lógica de compartilhamento do youtube</p>
+    <iframe src="https://player.vimeo.com/video/122389390?h=58841deb55&color=ff9933&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
