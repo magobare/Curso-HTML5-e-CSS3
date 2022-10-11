@@ -1,3 +1,3 @@
 # Curso-HTML5-e-CSS3
 Curso de HTML5 e CSS 3 do Curso em Vídeo
-<a href="https://magobare.github.io/Curso-HTML5-e-CSS3/Exerc%C3%ADcios/Ex0001/index.html">Executar o Exercício 001</a>
+<a href="https://magobare.github.io/Curso-HTML5-e-CSS3/Exercícios/Ex001/index.html">Executar o Exercício 001</a>
